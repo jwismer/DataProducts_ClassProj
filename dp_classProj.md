@@ -22,47 +22,31 @@ histograms.
 Histogram Basics
 ========================================================
 
-### The number of buckets can hide detail
+The number of buckets can hide detail
 
 ![plot of chunk unnamed-chunk-1](dp_classProj-figure/unnamed-chunk-1-1.png) 
 
-Histogram Basics
-========================================================
-
-### Fewer Buckets = Less Detail
-
-- 5 buckets
-- unimodal distribution
+5 buckets : unimodal distribution
 
 Histogram Basics
 ========================================================
 
-### Let's look at more Detial
+Let's look at more Detial
 
 ![plot of chunk unnamed-chunk-2](dp_classProj-figure/unnamed-chunk-2-1.png) 
 
-Histogram Basics
-========================================================
-
-### More Buckets = More Detail
-
-- 28 buckets
-- tri-modal distribution
+28 buckets : tri-modal distribution
 
 The Shiny App
 ========================================================
 
-### Click the link below to access the tool on the ShinyApp.io server
-
-[Shiny App Tool](https://jwismer.shinyapps.io/DataProducts_ClassProj)
+### Click: [Shiny App Tool](https://jwismer.shinyapps.io/DataProducts_ClassProj)
 
 Use the slider to manipulate the number of buckets.
 
 Notice that more detail is revealed as the number of buckets is increased.
 
-Potential Uses of the App
-========================================================
-
+### Potential Uses of the App
 - Teaching tool in High School
 - Interactive Library settings
 - Maybe good for introductory MOOCs
