@@ -10,6 +10,6 @@ shinyServer(
   function(input, output) {
     x <- reactive({as.numeric(input$binbreaks) })
     output$inputValue <- renderText({x()})
-    output$sepalplot  <- renderPlot({sepalhist(input$binbreaks)})
+    output$sepalplot  <- renderPlot({sepalhist(x())})
   }
 )
